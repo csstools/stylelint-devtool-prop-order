@@ -1,0 +1,41 @@
+{
+  "name": "stylelint-devtool-prop-order",
+  "version": "1.0.0",
+  "description": "Enforce CSS property ordering like Chrome DevTools",
+  "author": "Jonathan Neal <jonathantneal@hotmail.com>",
+  "license": "CC0-1.0",
+  "repository": "csstools/stylelint-devtool-prop-order",
+  "homepage": "https://github.com/csstools/stylelint-devtool-prop-order#readme",
+  "bugs": "https://github.com/csstools/stylelint-devtool-prop-order/issues",
+  "main": "stylelint-devtool-prop-order.js",
+  "types": "stylelint-devtool-prop-order.d.ts",
+  "files": [
+    "stylelint-devtool-prop-order.js",
+    "stylelint-devtool-prop-order.d.ts",
+    "lib"
+  ],
+  "scripts": {
+    "prepublishOnly": "npm test",
+    "test": "stylelint-tape"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "stylelint-order": "^5.0.0"
+  },
+  "devDependencies": {
+    "stylelint": "^14.15.0",
+    "stylelint-tape": "^3.0.0"
+  },
+  "peerDependencies": {
+    "stylelint": ">= 10"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelint-plugin",
+    "css",
+    "prefer",
+    "nesting"
+  ]
+}
